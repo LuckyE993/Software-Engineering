@@ -86,6 +86,7 @@ int main() {
 	printf("\n");
 	// 根据输入的年级和题目数量生成题目
 	generate_questions(grade, num_questions);
-
+	getchar();
+	getchar();
 	return 0;
 }
